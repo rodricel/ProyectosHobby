@@ -20,13 +20,13 @@ namespace payday2level {
 		{
 			InitializeComponent();
 			//
-			//TODO: agregar código de constructor aquí
+			//TODO: agregar cÃ³digo de constructor aquÃ­
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Limpiar los recursos que se estén usando.
+		/// Limpiar los recursos que se estÃ©n usando.
 		/// </summary>
 		~MyForm()
 		{
@@ -52,14 +52,14 @@ namespace payday2level {
 
 	private:
 		/// <summary>
-		/// Variable del diseñador necesaria.
+		/// Variable del diseÃ±ador necesaria.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Método necesario para admitir el Diseñador. No se puede modificar
-		/// el contenido de este método con el editor de código.
+		/// MÃ©todo necesario para admitir el DiseÃ±ador. No se puede modificar
+		/// el contenido de este mÃ©todo con el editor de cÃ³digo.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -221,7 +221,7 @@ namespace payday2level {
 		for (int i = 0; i < textBox1->Text->Length; i++)
 		{
 			if (textBox1->Text[i] - '0' < 0 || textBox1->Text[i] - '0' >9) {
-				MessageBox::Show(this, "oe subnormal experiencia es un numero", "error", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				MessageBox::Show(this, "oye experiencia es un numero", "error", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				textBox1->Clear();
 				return;
 			}
@@ -261,7 +261,7 @@ private: System::Void TextBox2_TextChanged(System::Object^ sender, System::Event
 	for (int i = 0; i < textBox2->Text->Length; i++)
 	{
 		if (textBox2->Text[i] - '0' < 0 || textBox2->Text[i] - '0' >9) {
-			MessageBox::Show(this, "oe subnormal experiencia es un numero", "error", MessageBoxButtons::OK, MessageBoxIcon::Error);
+			MessageBox::Show(this, "oye experiencia es un numero", "error", MessageBoxButtons::OK, MessageBoxIcon::Error);
 			textBox2->Clear();
 			return;
 		}
